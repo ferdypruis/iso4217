@@ -13,11 +13,11 @@ const (
 )
 
 var currencies = [...]struct {
-	// ISO 4217 alphabetic code
+	// ISO 4217 three-letter alphabetic code
 	alpha string
-	// ISO 4217 numeric code
+	// ISO 4217 three-digit numeric code
 	numeric string
-	// Number of decimals
+	// Number of decimals to express minor currency unit
 	exponent int
 	// English name
 	name string
