@@ -1,4 +1,4 @@
-// Code generated from XML published on 2018-08-29; DO NOT EDIT.
+// Code generated from XML published on 2021-10-01; DO NOT EDIT.
 
 package iso4217
 
@@ -263,6 +263,7 @@ const (
 	UYW          // Unidad Previsional (927)
 	UZS          // Uzbekistan Sum (860)
 	VEB          // Deprecated: Bolivar (862)
+	VED          // Bolívar Soberano (926)
 	VEF          // Deprecated: Bolívar (937)
 	VES          // Bolívar Soberano (928)
 	VNC          // Deprecated: Old Dong (704)
@@ -577,6 +578,7 @@ var currencies = [...]struct {
 	UYW: {alpha: "UYW", numeric: "927", exponent: 4, name: "Unidad Previsional"},
 	UZS: {alpha: "UZS", numeric: "860", exponent: 2, name: "Uzbekistan Sum"},
 	VEB: {alpha: "VEB", numeric: "862", exponent: 0, name: "Bolivar"},
+	VED: {alpha: "VED", numeric: "926", exponent: 2, name: "Bolívar Soberano"},
 	VEF: {alpha: "VEF", numeric: "937", exponent: 0, name: "Bolívar"},
 	VES: {alpha: "VES", numeric: "928", exponent: 2, name: "Bolívar Soberano"},
 	VNC: {alpha: "VNC", numeric: "704", exponent: 0, name: "Old Dong"},

@@ -1,4 +1,5 @@
 // Generate data structures based on the XML's available at https://www.currency-iso.org/
+//go:build ignore
 // +build ignore
 
 package main
@@ -14,8 +15,8 @@ import (
 	"time"
 )
 
-const urlListOne = "https://www.currency-iso.org/dam/downloads/lists/list_one.xml"
-const urlListThree = "https://www.currency-iso.org/dam/downloads/lists/list_three.xml"
+const urlListOne = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/amendments/lists/list_one.xml"
+const urlListThree = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/amendments/lists/list_three.xml"
 
 const tpl = `generator/data.go.tpl`
 const outfile = `data.go`
