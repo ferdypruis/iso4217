@@ -1,4 +1,4 @@
-// Code generated from XML published on 2021-10-01; DO NOT EDIT.
+// Code generated from XML published on 2022-04-01; DO NOT EDIT.
 
 package iso4217
 
@@ -224,6 +224,7 @@ const (
 	SHP          // Saint Helena Pound (654)
 	SIT          // Deprecated: Tolar (705)
 	SKK          // Deprecated: Slovak Koruna (703)
+	SLE          // Leone (925)
 	SLL          // Leone (694)
 	SOS          // Somali Shilling (706)
 	SRD          // Surinam Dollar (968)
@@ -539,6 +540,7 @@ var currencies = [...]struct {
 	SHP: {alpha: "SHP", numeric: "654", exponent: 2, name: "Saint Helena Pound"},
 	SIT: {alpha: "SIT", numeric: "705", exponent: 0, name: "Tolar"},
 	SKK: {alpha: "SKK", numeric: "703", exponent: 0, name: "Slovak Koruna"},
+	SLE: {alpha: "SLE", numeric: "925", exponent: 2, name: "Leone"},
 	SLL: {alpha: "SLL", numeric: "694", exponent: 2, name: "Leone"},
 	SOS: {alpha: "SOS", numeric: "706", exponent: 2, name: "Somali Shilling"},
 	SRD: {alpha: "SRD", numeric: "968", exponent: 2, name: "Surinam Dollar"},
