@@ -1,4 +1,6 @@
 // Generate data structures based on the XML's available at https://www.currency-iso.org/
+//go:build ignore
+// +build ignore
 
 package main
 
@@ -43,13 +45,13 @@ func main() {
 	// Parse template file
 	tmpl, err := template.ParseFiles(tpl)
 	if err != nil {
-		log.Fatalln(`iso4217: error parsing template %s:`, tpl, err)
+		log.Fatalln(`iso4217: error parsing template %s; %s`, tpl, err)
 	}
 
 	// Open output file
 	w, err := os.Create(outfile)
 	if err != nil {
-		log.Fatalln(`iso4217: error opening output file %s:`, outfile, err)
+		log.Fatalln(`iso4217: error opening output file %s; %s`, outfile, err)
 	}
 	defer w.Close()
 

@@ -19,10 +19,8 @@ func (c Currency) Name() string { return currencies[c].name }
 // FromAlpha returns Currency for the three-letter alpha code.
 // Or an error if it does not exist.
 func FromAlpha(alpha string) (Currency, error) {
-	for c, currency := range currencies {
-		if currency.alpha == alpha {
-			return Currency(c), nil
-		}
+	if c, ok := fromAlpha[alpha]; ok {
+		return c, nil
 	}
 	return Currency(0), Error("no currency exists with alphabetic code " + alpha)
 }
@@ -30,10 +28,8 @@ func FromAlpha(alpha string) (Currency, error) {
 // FromNumeric returns Currency for the three-digit numeric code.
 // Or an error if it does not exist.
 func FromNumeric(numeric string) (Currency, error) {
-	for c, currency := range currencies {
-		if currency.numeric == numeric {
-			return Currency(c), nil
-		}
+	if c, ok := fromNumeric[numeric]; ok {
+		return c, nil
 	}
 	return Currency(0), Error("no currency exists with numeric code " + numeric)
 }

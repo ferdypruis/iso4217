@@ -26,3 +26,17 @@ var currencies = [...]struct {
 	{{.Alpha}}: {alpha: "{{.Alpha}}", numeric: "{{.Numeric}}", exponent: {{.Exponent}}, name: {{.Name | printf "%q"}}},
 {{- end}}
 }
+
+var fromAlpha = map[string]Currency{
+{{- range .currencies}}
+    "{{.Alpha}}": {{.Alpha}},
+{{- end}}
+}
+
+var fromNumeric = map[string]Currency{
+{{- range .currencies}}
+    {{- if not .Historic }} {{/* Ignore historic numbers due to duplicates */}}
+    "{{.Numeric}}": {{.Alpha}},
+    {{- end}}
+{{- end}}
+}
