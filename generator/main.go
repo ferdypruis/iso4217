@@ -15,8 +15,8 @@ import (
 	"time"
 )
 
-const urlListOne = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list_one.xml"
-const urlListThree = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list_three.xml"
+const urlListOne = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
+const urlListThree = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml"
 
 const tpl = `generator/data.go.tpl`
 const outfile = `data.go`
