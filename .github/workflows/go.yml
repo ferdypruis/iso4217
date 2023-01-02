@@ -21,5 +21,11 @@ jobs:
     - name: Vet
       run: go vet
 
+    - name: golangci-lint
+      uses: golangci/golangci-lint-action@v3
+      with:
+        version: v1.50.1
+        only-new-issues: true
+        
     - name: Test
       run: go test -v ./...
