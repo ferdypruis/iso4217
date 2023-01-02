@@ -1,4 +1,4 @@
-// Code generated from XML published on 2022-04-01; DO NOT EDIT.
+// Code generated from XML published on 2023-01-01; DO NOT EDIT.
 
 package iso4217
 
@@ -118,7 +118,7 @@ const (
 	HKD          // Hong Kong Dollar (344)
 	HNL          // Lempira (340)
 	HRD          // Deprecated: Croatian Dinar (191)
-	HRK          // Kuna (191)
+	HRK          // Deprecated: Kuna (191)
 	HTG          // Gourde (332)
 	HUF          // Forint (348)
 	IDR          // Rupiah (360)
@@ -434,7 +434,7 @@ var currencies = [...]struct {
 	HKD: {alpha: "HKD", numeric: "344", exponent: 2, name: "Hong Kong Dollar"},
 	HNL: {alpha: "HNL", numeric: "340", exponent: 2, name: "Lempira"},
 	HRD: {alpha: "HRD", numeric: "191", exponent: 0, name: "Croatian Dinar"},
-	HRK: {alpha: "HRK", numeric: "191", exponent: 2, name: "Kuna"},
+	HRK: {alpha: "HRK", numeric: "191", exponent: 0, name: "Kuna"},
 	HTG: {alpha: "HTG", numeric: "332", exponent: 2, name: "Gourde"},
 	HUF: {alpha: "HUF", numeric: "348", exponent: 2, name: "Forint"},
 	IDR: {alpha: "IDR", numeric: "360", exponent: 2, name: "Rupiah"},
@@ -995,7 +995,6 @@ var fromNumeric = map[string]Currency{
 	"328": GYD,
 	"344": HKD,
 	"340": HNL,
-	"191": HRK,
 	"332": HTG,
 	"348": HUF,
 	"360": IDR,
