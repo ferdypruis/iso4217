@@ -434,7 +434,7 @@ var currencies = [...]struct {
 	HKD: {alpha: "HKD", numeric: "344", exponent: 2, name: "Hong Kong Dollar"},
 	HNL: {alpha: "HNL", numeric: "340", exponent: 2, name: "Lempira"},
 	HRD: {alpha: "HRD", numeric: "191", exponent: 0, name: "Croatian Dinar"},
-	HRK: {alpha: "HRK", numeric: "191", exponent: 0, name: "Kuna"},
+	HRK: {alpha: "HRK", numeric: "191", exponent: 2, name: "Kuna"},
 	HTG: {alpha: "HTG", numeric: "332", exponent: 2, name: "Gourde"},
 	HUF: {alpha: "HUF", numeric: "348", exponent: 2, name: "Forint"},
 	IDR: {alpha: "IDR", numeric: "360", exponent: 2, name: "Rupiah"},
