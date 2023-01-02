@@ -1,6 +1,6 @@
 # iso4217
-[![GoDoc](https://godoc.org/github.com/ferdypruis/iso4217?status.svg)](https://godoc.org/github.com/ferdypruis/iso4217)
-[![GolangCI](https://golangci.com/badges/github.com/ferdypruis/iso4217.svg)](https://golangci.com/r/github.com/ferdypruis/iso4217)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ferdypruis/iso4217.svg)](https://pkg.go.dev/github.com/ferdypruis/iso4217)
+[![Go build](https://github.com/ferdypruis/iso4217/actions/workflows/go.yml/badge.svg)](https://github.com/ferdypruis/iso4217/actions/workflows/go.yml)
 
 A Go package providing all ISO 4217 currency codes as constants of type `iso4217.Currency`.
 
