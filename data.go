@@ -1,4 +1,4 @@
-// Code generated from XML published on 2023-01-01; DO NOT EDIT.
+// Code generated from XML published on 2024-01-01; DO NOT EDIT.
 
 package iso4217
 
@@ -225,7 +225,7 @@ const (
 	SIT          // Deprecated: Tolar (705)
 	SKK          // Deprecated: Slovak Koruna (703)
 	SLE          // Leone (925)
-	SLL          // Leone (694)
+	SLL          // Deprecated: Leone (694)
 	SOS          // Somali Shilling (706)
 	SRD          // Surinam Dollar (968)
 	SRG          // Deprecated: Surinam Guilder (740)
@@ -1063,7 +1063,6 @@ var fromNumeric = map[string]Currency{
 	"702": SGD,
 	"654": SHP,
 	"925": SLE,
-	"694": SLL,
 	"706": SOS,
 	"968": SRD,
 	"728": SSP,
