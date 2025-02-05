@@ -1,4 +1,4 @@
-// Code generated from XML published on 2024-01-01; DO NOT EDIT.
+// Code generated from XML published on 2025-02-04; DO NOT EDIT.
 
 package iso4217
 
@@ -305,7 +305,8 @@ const (
 	ZRZ          // Deprecated: Zaire (180)
 	ZWC          // Deprecated: Rhodesian Dollar (716)
 	ZWD          // Deprecated: Zimbabwe Dollar (716)
-	ZWL          // Zimbabwe Dollar (932)
+	ZWG          // Zimbabwe Gold (924)
+	ZWL          // Deprecated: Zimbabwe Dollar (932)
 	ZWN          // Deprecated: Zimbabwe Dollar (new) (942)
 	ZWR          // Deprecated: Zimbabwe Dollar (935)
 )
@@ -621,7 +622,8 @@ var currencies = [...]struct {
 	ZRZ: {alpha: "ZRZ", numeric: "180", exponent: 0, name: "Zaire"},
 	ZWC: {alpha: "ZWC", numeric: "716", exponent: 0, name: "Rhodesian Dollar"},
 	ZWD: {alpha: "ZWD", numeric: "716", exponent: 0, name: "Zimbabwe Dollar"},
-	ZWL: {alpha: "ZWL", numeric: "932", exponent: 2, name: "Zimbabwe Dollar"},
+	ZWG: {alpha: "ZWG", numeric: "924", exponent: 2, name: "Zimbabwe Gold"},
+	ZWL: {alpha: "ZWL", numeric: "932", exponent: 0, name: "Zimbabwe Dollar"},
 	ZWN: {alpha: "ZWN", numeric: "942", exponent: 0, name: "Zimbabwe Dollar (new)"},
 	ZWR: {alpha: "ZWR", numeric: "935", exponent: 0, name: "Zimbabwe Dollar"},
 }
@@ -928,6 +930,7 @@ var fromAlpha = map[string]Currency{
 	"ZRZ": ZRZ,
 	"ZWC": ZWC,
 	"ZWD": ZWD,
+	"ZWG": ZWG,
 	"ZWL": ZWL,
 	"ZWN": ZWN,
 	"ZWR": ZWR,
@@ -1112,5 +1115,5 @@ var fromNumeric = map[string]Currency{
 	"886": YER,
 	"710": ZAR,
 	"967": ZMW,
-	"932": ZWL,
+	"924": ZWG,
 }
