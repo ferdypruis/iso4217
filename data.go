@@ -73,7 +73,7 @@ const (
 	CSD          // Deprecated: Serbian Dinar (891)
 	CSJ          // Deprecated: Krona A/53 (203)
 	CSK          // Deprecated: Koruna (200)
-	CUC          // Peso Convertible (931)
+	CUC          // Deprecated: Peso Convertible (931)
 	CUP          // Cuban Peso (192)
 	CVE          // Cabo Verde Escudo (132)
 	CYP          // Deprecated: Cyprus Pound (196)
@@ -698,7 +698,6 @@ var fromAlpha = map[string]Currency{
 	"CSD": CSD,
 	"CSJ": CSJ,
 	"CSK": CSK,
-	"CUC": CUC,
 	"CUP": CUP,
 	"CVE": CVE,
 	"CYP": CYP,
@@ -974,7 +973,6 @@ var fromNumeric = map[string]Currency{
 	"170": COP,
 	"970": COU,
 	"188": CRC,
-	"931": CUC,
 	"192": CUP,
 	"132": CVE,
 	"203": CZK,
